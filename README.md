@@ -44,21 +44,7 @@ We then introduced a **vocabulary-aware preprocessing** pipeline (replace low-fr
 └── README.md             # This file
 ```
 
----
-
-## Setup
-```bash
-# 1) Clone
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-# 2) Python env (recommended)
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-
-# 3) Install deps
-pip install -r requirements.txt
-```
+--- 
 
 **Main dependencies:** Python 3.9+, PyTorch, Pandas, NumPy, NLTK, Matplotlib, scikit-learn, tqdm.
 
