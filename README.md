@@ -30,19 +30,6 @@ We then introduced a **vocabulary-aware preprocessing** pipeline (replace low-fr
 - Replace **2,717** low-frequency/validation-only tokens with `<UNK>`; apply **Porter stemming**.
 - Demonstrate that a **compact MLP** over averaged embeddings (embed_dim=200, hidden_dim=200, dropout=0.2) **outperforms** heavier sequence models under low-resource settings.
 
----
-
-## Repository Structure
-```text
-├── data/                 # FinancialPhraseBank dataset (download separately)
-├── notebooks/            # EDA, preprocessing, training & evaluation notebooks
-├── models/               # Model definitions (LSTM, Attention, LSTM+Attn, Transformer+Attn, MLP)
-├── utils/                # Preprocessing, dataset class, tokenization, plotting helpers
-├── results/              # Logs, metrics, curves, comparison figures, saved models
-├── train.py              # CLI entry to train/evaluate models
-├── requirements.txt      # Python dependencies
-└── README.md             # This file
-```
 
 --- 
 
